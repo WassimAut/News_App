@@ -10,7 +10,7 @@ export const Newsboard = ({category}) => {
         const response = await fetch(url);
         const data = await response.json();
         setArticles(data.articles);
-        console.log(data.articles);
+        
     };
         fetchdata()
     },[category])
