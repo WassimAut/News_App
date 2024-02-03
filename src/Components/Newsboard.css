@@ -1,0 +1,15 @@
+*{
+
+    box-sizing:border-box;
+}
+.Cont-news{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    row-gap: 10px;
+    gap:10px;
+}
+
+.card{
+flex-basis:calc((100% / 3) - (20px / 3)) 
+}

@@ -1,0 +1,28 @@
+*{
+
+    box-sizing:border-box;
+}
+
+.card{
+    flex-basis:calc((100% / 3) - (20px / 3)) ;
+    padding:10px;
+    }
+
+.card-img-top{
+ height:200px;
+}
+
+.Collapss{
+   white-space-collapse: preserve;
+}
+
+.card-cont{
+    position:relative;
+    padding-bottom:50px;
+}
+
+.readmorebtn{
+   position:absolute;
+   bottom:17px;
+
+}
